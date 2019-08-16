@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace VTS_EPAM.Activities
 {
-    [Activity(Label = "SplashActivity", MainLauncher =true, Theme = "@style/Theme.Splash", NoHistory = true)]
+    [Activity(Label = "SplashActivity", MainLauncher=true, Theme = "@style/Theme.Splash", NoHistory = true)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
