@@ -9,7 +9,7 @@ using Android.Widget;
 
 namespace VTS_EPAM.Activities
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/Theme.Splash", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/MyTheme.Splash", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 
@@ -19,11 +19,10 @@ namespace VTS_EPAM.Activities
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
+            //Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            //SetSupportActionBar(toolbar);
 
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+          
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
