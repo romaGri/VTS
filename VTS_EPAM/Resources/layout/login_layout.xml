@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
+
     android:orientation="vertical">
 
     <LinearLayout
@@ -16,8 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_launcher" />
+            android:layout_marginBottom="20dp" />
 
         <EditText
             android:id="@+id/userName"
@@ -33,8 +34,7 @@
 
         <View
             android:layout_width="fill_parent"
-            android:layout_height="16dp"
-            android:background="none" />
+            android:layout_height="16dp" />
 
         <EditText
             android:id="@+id/password"
@@ -50,8 +50,7 @@
 
         <View
             android:layout_width="fill_parent"
-            android:layout_height="11dp"
-            android:background="none" />
+            android:layout_height="11dp" />
 
         <Button
             android:id="@+id/login"
