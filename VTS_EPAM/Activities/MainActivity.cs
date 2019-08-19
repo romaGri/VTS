@@ -9,7 +9,7 @@ using Android.Widget;
 
 namespace VTS_EPAM.Activities
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/MyTheme.Splash", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/MyTheme.Splash", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
 
