@@ -117,9 +117,6 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash_screen.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\Splash_bg.jpg" />
   </ItemGroup>
   <ItemGroup>
