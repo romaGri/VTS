@@ -20,8 +20,7 @@ namespace VTS_EPAM.Activities
             Log.Debug(TAG, "SplashActivity.OnCreate");
         }
 
-        // Launches the startup task
-        // Launches the startup task
+        
         protected override void OnResume()
         {
             base.OnResume();
